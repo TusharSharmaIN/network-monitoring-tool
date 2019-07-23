@@ -1,0 +1,74 @@
+html{
+  background-color: #efc9af;
+}
+
+body{
+  margin: 0;
+  padding: 0;
+  font-family:  sans-serif;
+}
+
+h3{
+  text-align: center;
+}
+
+.capture-box{
+  width: 400px;
+  margin: 16px auto;
+  font-size: 16px;
+}
+
+#capture-heading{
+  background: #ebebeb;
+  padding: 14px;
+  font-size: 2.0em;
+  font-weight: bold;
+  text-align: center;
+  color: #000;
+}
+
+#protocol-heading{
+  background: #ebebeb;
+  padding: 8px;
+  font-size: 1.2em;
+  text-align: center;
+  font-weight: normal;
+  color: #000;
+}
+
+#filter-heading{
+}
+
+#number-of-packets-heading{
+}
+
+.capture-box input[type="submit"]{
+  background: #28d;
+  border-color: transparent;
+  color: #fff;
+  cursor: pointer;
+}
+
+.capture-box input[type="submit"]:hover{
+  background: #17c;
+}
+
+.capture-box input[type="submit"]:focus{
+  background: #05a;
+}
+
+#button{
+  width: 400px;
+  margin: 0 auto;
+  padding: 8px;
+}
+
+.footer{
+  background: #efc9af;
+  padding: 20px;
+  padding-top: 60px;
+  font-size: 0.8em;
+  font-weight: normal;
+  text-align: center;
+  color: #000;
+}

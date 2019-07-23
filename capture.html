@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" type="text/css" href="capture_style.css">
+    <title>Success</title>
+</head>
+
+<body>
+
+    <div class="capture-box">
+    <h3 id="capture-heading">Capture Packets</h3>
+    <form action="result.php" method="post">
+      <div class="protocol-box">
+        <div class="protocols-btn">
+            <h4 id="protocol-heading">Protocols</h4>
+            <input type="radio" name="protocol" value="tcp" checked>TCP
+            <input type="radio" name="protocol" value="udp">UDP
+            <input type="radio" name="protocol" value="arp">ARP
+        </div>
+
+        <div class="protocols-dropdown">
+          <h4 id="filter-heading">Filter</h4>
+          <select name="filter">
+            <option value="all-packets">All packets</options>
+            <option value="timestamp">Timestamp</options>
+
+            <option value="source-ip">Source IP</options>
+            <option value="source-port">Source Port</options>
+            <option value="source-mac">Source MAC</options>
+
+            <option value="destination-ip">Destination IP</options>
+            <option value="destination-port">Destination Port</options>
+            <option value="destination-mac">Destination MAC</options>
+
+            <option value="packet-length">Packet Length</options>
+          </select>
+          <h4 id="number-of-packets-heading">Number of packets</h4>
+          <input type="number" name="number-of-packets" value="10">
+        </div>
+
+      </div>
+      <br>
+      <input id="button" type="submit" name="submit" value="Go">
+    </form>
+  </div>
+  <footer class="footer"><p>Created by: Tushar Sharma</p></footer>
+</body>
+</html>
