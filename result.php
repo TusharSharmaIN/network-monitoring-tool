@@ -8,7 +8,7 @@
 <html>
 
 <head>
-  <title>Request</title>
+  <title>Result</title>
   <link rel="stylesheet" type="text/css" href="result_style.css">
 <head>
 
